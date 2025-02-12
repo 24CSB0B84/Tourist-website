@@ -1,0 +1,78 @@
+
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Tokyo</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url('https://wallpaperaccess.com/full/279091.jpg');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            color: white;
+            padding: 20px;
+            position: relative;
+        }
+
+        h1 {
+            font-size: 5rem;
+            font-weight: bold;
+            text-transform: uppercase;
+            text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.8);
+            animation: glow 1.5s infinite alternate;
+        }
+
+        @keyframes glow {
+            0% { text-shadow: 4px 4px 10px rgba(255, 0, 0, 0.8); }
+            100% { text-shadow: 4px 4px 20px rgba(255, 165, 0, 1); }
+        }
+
+        .mask {
+            position: absolute;  
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url('https://img.freepik.com/premium-vector/tokyo-japan-typography-slogan-streetwear-y2k-style-logo-vector-icon-illustration-kanji-means-tokyo_295412-275.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            z-index: -1;
+            opacity: 0.3; /* Adjust opacity here */
+        }
+
+        p {
+            font-size: 1.5rem;
+            max-width: 800px;
+            background: rgba(0, 0, 0, 0.6);
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.7);
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="mask"></div>
+    <p>
+        Tokyo, the vibrant capital of Japan, is a mesmerizing blend of ultra-modern skyscrapers, ancient temples, and rich cultural heritage. 
+        Tokyo is the capital of Japan and one of the world's largest cities. Besides being the political center of Japan, Tokyo is also the financial, cultural, and industrial center of Japan and a major international financial center.
+        From the dazzling lights of Shibuya to the serene beauty of the Meiji Shrine, Tokyo offers an unforgettable experience to every visitor. 
+        Explore its unique cuisine, futuristic technology, and deep-rooted traditions.
+    </p>
+</body>
+</html>

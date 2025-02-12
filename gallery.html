@@ -1,0 +1,78 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Tokyo Gallery</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+       body
+         {
+            background-image: url('https://backiee.com/static/wallpapers/1000x563/377128.jpg');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            backgorund-repeat: no-repeat;
+            margin: 0;
+            padding: 0;
+         }
+        .gallery {
+            margin-top: 80px;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .gallery h1 {
+            font-size: 3rem;
+            color: black;
+            margin-bottom: 20px;
+        }
+
+        .gallery-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 15px;
+            padding: 20px;
+        }
+
+        .gallery-container img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .gallery-container img:hover {
+            transform: scale(1.05);
+        }
+
+    </style>
+</head>
+<body>
+
+    <section class="gallery">
+        <h1>Tokyo Photo Gallery</h1>
+        <div class="gallery-container">
+            <img src="https://static.toiimg.com/photo/57961644.cms" alt="Tokyo Image 1">
+            <img src="https://img.traveltriangle.com/blog/wp-content/uploads/2019/07/cover-for-Tokyo-In-October.jpg" alt="Tokyo Image 2">
+            <img src="https://img.traveltriangle.com/blog/wp-content/uploads/2019/07/Places-To-Visit-In-Tokyo.jpg" alt="Tokyo Image 3">
+            <img src="https://www.kiwi.com/tips/wp-content/uploads/2023/03/japan-tokyo-1280x853.jpg" alt="Tokyo Image 4">
+            <img src="https://qph.cf2.quoracdn.net/main-qimg-77c080860eb33a09fca37b33412e2c47-lq" alt="Tokyo Image 5">
+            <img src="https://cdn.tasteatlas.com/images/dishes/b6b9680a32c84a9381a1ea5f5e529698.jpg?m=facebook" alt="Tokyo Image 6">
+            <img src="https://www.lot.com/content/dam/lot/lot-com/destination-photos/japonia/Tokyo-4.coreimg.jpg/1723628368207/Tokyo-4.jpg" alt="Tokyo Image 7">
+            <img src="https://rimage.gnst.jp/livejapan.com/public/article/detail/a/00/01/a0001220/img/basic/a0001220_main.jpg" alt="Tokyo Image 8">
+            <img src="https://i.natgeofe.com/n/fb5f4b33-bfe4-4d21-bc63-44d9b8e70bfd/citybreak_AWL_TPX73093_HR.jpg" alt="Tokyo Image 9">
+            <img src="https://japantour.xyz/wp-content/uploads/2022/11/IMG_9194_Original-1-1024x809.jpg" alt="Tokyo Image 10">
+            <img src="https://assets.vogue.com/photos/659db809e0e9934642099815/master/w_2560%2Cc_limit/1189690204" alt="Tokyo Image 11">
+            <img src="https://gaijinpot.scdn3.secure.raxcdn.com/app/uploads/sites/6/2016/07/Tokyo-Imperial-Palace-800x500.jpg" alt="Tokyo Image 12">
+        </div>
+    </section>
+
+</body>
+</html>
+
